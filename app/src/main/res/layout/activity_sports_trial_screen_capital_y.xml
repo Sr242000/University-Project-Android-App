@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SportsTrialScreenCapitalY">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="414dp"
+        android:layout_height="67dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/now_move_the_ball_text_trial_y_capital_trial"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Trial"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/now_move_the_ball_text_sport_y_capital_trial"
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Now move the ball using your finger"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6" />
+
+    <TextView
+        android:id="@+id/trial_text_y_capital_sport"
+        android:layout_width="289dp"
+        android:layout_height="414dp"
+        android:fontFamily="@font/anisa_sans"
+        android:text="Y"
+        android:translationY="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="450sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/now_move_the_ball_text_sport_y_capital_trial" />
+
+    <Button
+        android:id="@+id/replay_button_sport_y_capital_trial"
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retry"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trial_text_y_capital_sport"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <Button
+        android:id="@+id/next_button_sport_y_capital_trial"
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/replay_button_sport_y_capital_trial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trial_text_y_capital_sport" />
+
+    <Button
+        android:id="@+id/back_button_sport_y_capital_trial"
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/replay_button_sport_y_capital_trial"
+        app:layout_constraintTop_toBottomOf="@+id/trial_text_y_capital_sport"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <ImageView
+        android:id="@+id/football_trial_capital_y"
+        android:layout_width="98dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="156dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/football" />
+
+    <ImageView
+        android:id="@+id/home_button"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toStartOf="@+id/now_move_the_ball_text_trial_y_capital_trial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar6"
+        app:srcCompat="@drawable/home_button" />
+
+    <ImageView
+        android:id="@+id/imageView116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        android:rotation="15"
+        android:translationX="-25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/curved_arrow_3" />
+
+    <ImageView
+        android:id="@+id/imageView117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="25dp"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/curved_arrow_7" />
+
+    <ImageView
+        android:id="@+id/imageView118"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="288dp"
+        android:translationX="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/down_arrow" />
+
+    <ImageView
+        android:id="@+id/imageView982"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="25dp"
+        android:translationX="-125dp"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/curved_arrow_6" />
+
+    <FrameLayout
+        android:id="@+id/paintView"
+        android:layout_width="217dp"
+        android:layout_height="354dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

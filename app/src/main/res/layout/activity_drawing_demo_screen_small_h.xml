@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_drawing_demo_screen_small_h_scene"
+    tools:context=".DrawingDemoScreenSmallH">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="414dp"
+        android:layout_height="67dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/demo_text_drawing_h_small_drawing"
+        android:layout_width="167dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Demo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/see_the_ball_text_drawing_h_small_drawing"
+        android:layout_width="301dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="See the ball moving "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6" />
+
+    <TextView
+        android:id="@+id/demo_text_h_small_drawing"
+        android:layout_width="289dp"
+        android:layout_height="414dp"
+        android:fontFamily="@font/anisa_sans"
+        android:text="h"
+        android:translationY="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="450sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/see_the_ball_text_drawing_h_small_drawing" />
+
+    <Button
+        android:id="@+id/replay_button_drawing_h_small_demo"
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retry"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/demo_text_h_small_drawing"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <Button
+        android:id="@+id/next_button_drawing_h_small_demo"
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/replay_button_drawing_h_small_demo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/demo_text_h_small_drawing" />
+
+    <Button
+        android:id="@+id/home_button_drawing_h_small_demo"
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/replay_button_drawing_h_small_demo"
+        app:layout_constraintTop_toBottomOf="@+id/demo_text_h_small_drawing"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <ImageView
+        android:id="@+id/colour_palette_demo_small_h"
+        android:layout_width="98dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="172dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/color_palette" />
+
+    <ImageView
+        android:id="@+id/home_button"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toStartOf="@+id/demo_text_drawing_h_small_drawing"
+        app:layout_constraintStart_toStartOf="@+id/toolbar6"
+        app:layout_constraintTop_toTopOf="@+id/toolbar6"
+        app:srcCompat="@drawable/home_button" />
+
+    <ImageView
+        android:id="@+id/imageView160"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/down_arrow" />
+
+    <ImageView
+        android:id="@+id/imageView163"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="320dp"
+        android:translationX="-15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/down_arrow" />
+
+    <ImageView
+        android:id="@+id/imageView161"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="400dp"
+        android:rotation="25"
+        android:translationY="-15dp"
+        android:translationX="-15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/curved_arrow_5" />
+
+    <ImageView
+        android:id="@+id/imageView162"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/curved_arrow_8" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

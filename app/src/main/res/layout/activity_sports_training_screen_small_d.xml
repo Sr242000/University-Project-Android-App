@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_sports_training_screen_small_d_scene"
+    tools:context=".SportsTrainingScreenSmallD">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="414dp"
+        android:layout_height="67dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/training_text_small_d_sport"
+        android:layout_width="167dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Training"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/place_a_finger_text_sport_d_small_training"
+        android:layout_width="307dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Place the finger on the moving ball and follow"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6" />
+
+    <TextView
+        android:id="@+id/training_text_d_small_sport"
+        android:layout_width="289dp"
+        android:layout_height="414dp"
+        android:fontFamily="@font/anisa_sans"
+        android:text="d"
+        android:translationY="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="450sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place_a_finger_text_sport_d_small_training" />
+
+    <Button
+        android:id="@+id/replay_button_sport_d_small_training"
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retry"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/training_text_d_small_sport"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <Button
+        android:id="@+id/next_button_sport_d_small_training"
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/replay_button_sport_d_small_training"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/training_text_d_small_sport" />
+
+    <Button
+        android:id="@+id/home_button_sport_d_small_training"
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/replay_button_sport_d_small_training"
+        app:layout_constraintTop_toBottomOf="@+id/training_text_d_small_sport"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <ImageView
+        android:id="@+id/football_training_small_d"
+        android:layout_width="98dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="172dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/football" />
+
+    <ImageView
+        android:id="@+id/home_button"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toStartOf="@+id/training_text_small_d_sport"
+        app:layout_constraintStart_toStartOf="@+id/toolbar6"
+        app:layout_constraintTop_toTopOf="@+id/toolbar6"
+        app:srcCompat="@drawable/home_button" />
+
+    <ImageView
+        android:id="@+id/imageView135"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="348dp"
+        android:translationY="35dp"
+        android:translationX="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/down_arrow" />
+
+
+    <ImageView
+        android:id="@+id/imageView136"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="416dp"
+        android:rotation="-25"
+        android:translationX="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/curved_arrow_1" />
+
+    <ImageView
+        android:id="@+id/imageView137"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="384dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/curved_arrow_4" />
+
+    <ImageView
+        android:id="@+id/imageView138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="296dp"
+        android:rotation="55"
+        android:translationX="-25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/curved_arrow_3" />
+
+    <ImageView
+        android:id="@+id/imageView139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="35dp"
+        android:translationX="-15dp"
+        android:layout_marginBottom="216dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/curved_arrow_3" />
+
+    <ImageView
+        android:id="@+id/imageView140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
+        android:rotation="55"
+        android:translationY="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/curved_arrow_2" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

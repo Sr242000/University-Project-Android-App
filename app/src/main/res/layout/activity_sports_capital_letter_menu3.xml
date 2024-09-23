@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SportsCapitalLetterMenu3"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="189dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="414dp"
+        android:layout_height="67dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sports_capital_previous_button_3"
+        android:layout_width="205dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Capital Letters"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/select_the_letter_sports_3"
+        android:layout_width="232dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Select the Letter"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+    <Button
+        android:id="@+id/sport_capital_y_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Y"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sport_capital_z_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_the_letter_sports_3" />
+
+    <Button
+        android:id="@+id/sport_capital_z_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Z"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_the_letter_sports_3" />
+
+    <Button
+        android:id="@+id/sport_capital_previous_button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Previous"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

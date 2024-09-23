@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CookingCapitalLetterMenu"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="189dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="414dp"
+        android:layout_height="67dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/capital_letter_cooking"
+        android:layout_width="205dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Capital Letters"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/select_the_letter_cooking"
+        android:layout_width="232dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Select the Letter"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+    <Button
+        android:id="@+id/cooking_capital_j_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="61dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="J"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/number_next_button_button"
+        app:layout_constraintEnd_toStartOf="@+id/cooking_capital_k_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cooking_capital_l_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="61dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="L"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/number_cooking_menu_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cooking_capital_k_button" />
+
+    <Button
+        android:id="@+id/cooking_capital_k_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="61dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="K"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/number_next_button_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cooking_capital_g_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="G"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cooking_capital_j_button"
+        app:layout_constraintEnd_toStartOf="@+id/cooking_capital_h_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cooking_capital_h_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="H"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cooking_capital_k_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cooking_capital_i_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="I"
+        style="@style/CustomButtonStyle"
+        app:layout_constraintBottom_toTopOf="@+id/cooking_capital_l_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cooking_capital_h_button"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cooking_capital_d_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="D"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cooking_capital_g_button"
+        app:layout_constraintEnd_toStartOf="@+id/cooking_capital_e_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cooking_capital_e_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="E"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cooking_capital_h_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cooking_capital_f_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="F"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cooking_capital_i_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cooking_capital_e_button" />
+
+    <Button
+        android:id="@+id/cooking_capital_a_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="A"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cooking_capital_d_button"
+        app:layout_constraintEnd_toStartOf="@+id/cooking_capital_b_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cooking_capital_c_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="C"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cooking_capital_f_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cooking_capital_b_button" />
+
+    <Button
+        android:id="@+id/cooking_capital_b_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="B"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cooking_capital_e_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/number_next_button_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="125dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Next"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/number_cooking_menu_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/number_cooking_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="124dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Back"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/number_next_button_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

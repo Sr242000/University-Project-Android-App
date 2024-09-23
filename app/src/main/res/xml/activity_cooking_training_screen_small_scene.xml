@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/path_1" >
+        <Constraint
+            android:layout_height="84dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="356dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.38"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="98dp"
+            android:id="@+id/cookie_training_small_a" />
+    </ConstraintSet>
+    <ConstraintSet
+        android:id="@+id/path_2"
+        motion:deriveConstraintsFrom="@+id/path_1" >
+        <Constraint
+            android:layout_height="84dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="376dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.529"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="98dp"
+            android:id="@+id/cookie_training_small_a" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/path_1"
+        motion:constraintSetEnd="@+id/path_2"
+        motion:autoTransition="animateToEnd"
+        motion:pathMotionArc="startVertical"
+        motion:duration="1000" />
+    <ConstraintSet
+        android:id="@+id/path_3"
+        motion:deriveConstraintsFrom="@+id/path_2" >
+        <Constraint
+            android:layout_height="84dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="352dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.619"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="98dp"
+            android:id="@+id/cookie_training_small_a" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/path_2"
+        motion:constraintSetEnd="@+id/path_3"
+        motion:autoTransition="animateToEnd"
+        motion:pathMotionArc="startHorizontal"
+        motion:duration="1000" />
+    <ConstraintSet
+        android:id="@+id/path_4"
+        motion:deriveConstraintsFrom="@+id/path_3" >
+        <Constraint
+            android:layout_height="84dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="264dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.651"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="98dp"
+            android:id="@+id/cookie_training_small_a" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/path_3"
+        motion:constraintSetEnd="@+id/path_4"
+        motion:autoTransition="animateToEnd"
+        motion:duration="1000" />
+    <ConstraintSet
+        android:id="@+id/path_5"
+        motion:deriveConstraintsFrom="@+id/path_4" >
+        <Constraint
+            android:layout_height="84dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="236dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.669"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="98dp"
+            android:id="@+id/cookie_training_small_a" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/path_4"
+        motion:constraintSetEnd="@+id/path_5"
+        motion:autoTransition="animateToEnd"
+        motion:pathMotionArc="startVertical"
+        motion:duration="1000" />
+    <ConstraintSet
+        android:id="@+id/path_6"
+        motion:deriveConstraintsFrom="@+id/path_5" >
+        <Constraint
+            android:layout_height="84dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="304dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.641"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="98dp"
+            android:id="@+id/cookie_training_small_a" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/path_5"
+        motion:constraintSetEnd="@+id/path_6"
+        motion:autoTransition="animateToEnd"
+        motion:duration="1000" />
+    <ConstraintSet
+        android:id="@+id/path_7"
+        motion:deriveConstraintsFrom="@+id/path_6" >
+        <Constraint
+            android:layout_height="84dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="288dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.342"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="98dp"
+            android:id="@+id/cookie_training_small_a" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/path_6"
+        motion:constraintSetEnd="@+id/path_7"
+        motion:autoTransition="animateToEnd"
+        motion:pathMotionArc="startHorizontal"
+        motion:duration="1000" />
+    <ConstraintSet
+        android:id="@+id/path_8"
+        motion:deriveConstraintsFrom="@+id/path_7" >
+        <Constraint
+            android:layout_height="84dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="244dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.355"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="98dp"
+            android:id="@+id/cookie_training_small_a" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/path_7"
+        motion:constraintSetEnd="@+id/path_8"
+        motion:autoTransition="animateToEnd"
+        motion:pathMotionArc="startVertical"
+        motion:duration="1000" />
+    <ConstraintSet
+        android:id="@+id/path_9"
+        motion:deriveConstraintsFrom="@+id/path_8" >
+        <Constraint
+            android:layout_height="84dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="224dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.498"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="98dp"
+            android:id="@+id/cookie_training_small_a" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/path_8"
+        motion:constraintSetEnd="@+id/path_9"
+        motion:autoTransition="animateToEnd"
+        motion:pathMotionArc="startVertical"
+        motion:duration="1000" />
+    <ConstraintSet
+        android:id="@+id/path_10"
+        motion:deriveConstraintsFrom="@+id/path_9" >
+        <Constraint
+            android:layout_height="84dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="236dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.566"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="98dp"
+            android:id="@+id/cookie_training_small_a" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/path_9"
+        motion:constraintSetEnd="@+id/path_10"
+        motion:autoTransition="animateToEnd"
+        motion:pathMotionArc="startHorizontal"
+        motion:duration="1000" />
+</MotionScene>

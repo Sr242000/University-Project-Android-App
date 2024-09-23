@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CookingReinforcementScreenCapitalC">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="414dp"
+        android:layout_height="67dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/reinforcement_text_reinforcement_c_capital"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:text="Reinforcement"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/now_write_letter_text_cooking_c_capital_reinforcement"
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/helvetica_now_text_medium"
+        android:textColor="@color/black"
+        android:text="Now write the letter using finger"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6" />
+
+    <TextView
+        android:id="@+id/reinforcement_text_c_capital_cooking"
+        android:layout_width="289dp"
+        android:layout_height="414dp"
+        android:fontFamily="@font/anisa_sans"
+        android:text="C"
+        android:translationY="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="450sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/now_write_letter_text_cooking_c_capital_reinforcement" />
+
+    <FrameLayout
+        android:id="@+id/paintView"
+        android:layout_width="258dp"
+        android:layout_height="353dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <Button
+        android:id="@+id/replay_button_cooking_c_capital_reinforcement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="84dp"
+        android:text="Retry"
+        style="@style/CustomButtonStyle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/menu_button_cooking_c_capital_reinforcement"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/menu_button_cooking_c_capital_reinforcement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="84dp"
+        style="@style/CustomButtonStyle"
+        android:text="Back"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reinforcement_text_c_capital_cooking"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/home_button"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toStartOf="@+id/reinforcement_text_reinforcement_c_capital"
+        app:layout_constraintStart_toStartOf="@+id/toolbar6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

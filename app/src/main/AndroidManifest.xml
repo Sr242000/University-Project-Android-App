@@ -1,0 +1,3282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="LockedOrientationActivity"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.ProjectDyslexicApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".DrawingTrialScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu3" />
+        <activity
+            android:name=".SportsDemoScreenSmallY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu2" />
+        <activity
+            android:name=".SportsDemoScreenSmallU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu2" />
+        <activity
+            android:name=".SportsDemoScreenSmallL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenSmallA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsSmallLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu2" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingReinforcementScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu2" />
+        <activity
+            android:name=".CookingTrialScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrialScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalH"
+            android:exported="false" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingTrainingScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu2" />
+        <activity
+            android:name=".CookingDemoScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".CookingDemoScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu2" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingReinforcementScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrialScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalZ"
+            android:exported="false" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingTrainingScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu2" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu2" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingDemoScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalR"
+            android:exported="false"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalZ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalY"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalX"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalV"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalW"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalU"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalS"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalT"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu2" />
+        <activity
+            android:name=".SportsDemoScreenCapitalQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalP"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalO"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalN"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalM"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalL"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalJ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalI"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalH"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalF"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalE"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalD"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalC"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalB"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsReinforcementScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrialScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsTrainingScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".SportsDemoScreenCapitalA"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsCapitalLetterMenu" />
+        <activity
+            android:name=".DrawingSmallLetterMenu3"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingMenu" />
+        <activity
+            android:name=".DrawingSmallLetterMenu2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingMenu" />
+        <activity
+            android:name=".CookingSmallLetterMenu3"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingMenu" />
+        <activity
+            android:name=".CookingSmallLetterMenu2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingMenu" />
+        <activity
+            android:name=".SportsSmallLetterMenu3"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsMenu" />
+        <activity
+            android:name=".SportsSmallLetterMenu2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsMenu" />
+        <activity
+            android:name=".SportsCapitalLetterMenu3"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsMenu" />
+        <activity
+            android:name=".DrawingCapitalLetterMenu3"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingMenu" />
+        <activity
+            android:name=".CookingCapitalLetterMenu3"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingMenu" />
+        <activity
+            android:name=".CookingCapitalLetterMenu2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingMenu" />
+        <activity
+            android:name=".DrawingCapitalLetterMenu2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingMenu" />
+        <activity
+            android:name=".SportsCapitalLetterMenu2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsMenu" />
+        <activity
+            android:name=".DrawingSmallLetterMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingMenu" />
+        <activity
+            android:name=".CookingSmallLetterMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingMenu" />
+        <activity
+            android:name=".SportsSmallLetterMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsMenu" />
+        <activity
+            android:name=".CookingCapitalLetterMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsMenu" />
+        <activity
+            android:name=".DrawingCapitalLetterMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsMenu" />
+        <activity
+            android:name=".SportsCapitalLetterMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsMenu" />
+        <activity
+            android:name=".CookingLetterMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingMenu" />
+        <activity
+            android:name=".CookingNumberMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CookingMenu" />
+        <activity
+            android:name=".DrawingNumberMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingMenu" />
+        <activity
+            android:name=".DrawingLetterMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DrawingMenu" />
+        <activity
+            android:name=".SportsNumberMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsMenu" />
+        <activity
+            android:name=".SportsLetterMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SportsMenu" />
+        <activity
+            android:name=".CookingMenu"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DrawingMenu"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SportsMenu"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+    </application>
+
+</manifest>

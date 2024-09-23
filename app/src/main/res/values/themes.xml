@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProjectDyslexicApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="android:buttonStyle">@style/CustomButtonStyle</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Set the default button style to CustomButtonStyle -->
+
+    </style>
+
+    <style name="CustomButtonStyle">
+        <item name="android:backgroundTint">@color/button_color</item>
+        <item name="android:textColor">@android:color/black</item>
+        <!-- Add other button styling here -->
+    </style>
+
+    <style name="Theme.ProjectDyslexicApp" parent="Base.Theme.ProjectDyslexicApp" />
+</resources>
